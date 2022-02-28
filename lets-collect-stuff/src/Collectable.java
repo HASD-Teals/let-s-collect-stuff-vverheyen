@@ -67,7 +67,7 @@ public class Collectable {
         return report();
     }
     public void Equal(Collectable a, Collectable b) {
-        if (a == b) {
+        if (a.equals(b)) {
             System.out.println("They are the same");
         }
         else { System.out.println("They are not the same"); }
